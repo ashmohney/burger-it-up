@@ -1,9 +1,9 @@
-##### burger-it-up
+# burger-it-up
 
 ![Image of burger-it-up app](burger-it-up-image.png)
 
 
-###App Functionality
+### App Functionality
 
 - A fun app that lets a user input the name of a burger they want to eat.
 - After a new burger is added, the burger is displayed on the left side of the Add New Burger form where it's waiting to be devoured.
@@ -11,7 +11,7 @@
 - Once devoured, the burger is then displayed on the right side of the Add New Burger form with the option to delete it. 
 - Every burger entered is stored in the database until deleted. 
 
-###Technologies
+### Technologies
 
 - HTML
 - CSS
@@ -26,8 +26,8 @@
 
 
 
-burger-it up is deployed via Heroku using JawsDB:
-- [heroku link](http://example.com/) 
+### [burger-it up is deployed via Heroku using JawsDB:](http://example.com/) 
+
 
 
 
