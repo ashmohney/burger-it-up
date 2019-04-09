@@ -1,0 +1,49 @@
+body {
+  background-image: url("../images/burger-grill.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
+
+.burger-header {
+  margin-top: 5%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+footer {
+  color: white;
+}
+
+a {
+  color: rgb(105, 136, 167);
+}
+
+a:hover {
+  color: lightskyblue;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+  /* color: black; */
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.burger-controls {
+  padding: 10px;
+  background: rgba(217, 219, 247, 0.3);
+}
+
+.form-group {
+  margin: 5px;
+}

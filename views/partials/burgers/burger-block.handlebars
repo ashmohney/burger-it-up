@@ -1,0 +1,13 @@
+<li>
+    {{#unless devoured}} 
+    <button class="change-eat btn btn-success" data-id="{{id}}" data-neweat="{{eat}}">
+             {{#if eat}}{{this.name}}{{/if}} <i class="fas fa-utensils"></i>
+    </button>   
+    {{this.id}}. {{this.burger_name}}
+    {{/unless}} 
+    {{#if devoured}}
+    <button class="delete-burger btn btn-danger" data-id="{{this.id}}"><i class="far fa-trash-alt"></i>
+    </button>
+     &nbsp; {{this.id}}. {{this.burger_name}}
+    {{/if}}
+</li>
