@@ -4,9 +4,9 @@
         <br>
 
         <div class="col-12 text-center burger-header">
-            <h1>Burger Time!</h1>
+            <h1>Burgers!</h1>
             <h5>
-                <em>Eat All the Burgers!</em>
+                <em>Log Your Burger Intake!</em>
             </h5>
             <br>
             <hr>
@@ -15,15 +15,6 @@
     </div>
     <div class="row burger-controls">
         
-
-        <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
-            <h2 class="text-center">Burgers to Devour:</h2>
-
-            <ul>
-                {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block eat=true}} {{/unless}} {{/each}}
-            </ul>
-        </div>
-        <hr>
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 text-center">
             <h2>Add New Burger:</h2>
             <form class="create-form">
@@ -38,7 +29,15 @@
             </form>
         </div>
         
+        <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+            <h2 class="text-center">Burger Wish List:</h2>
 
+            <ul>
+                {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block eat=true}} {{/unless}} {{/each}}
+            </ul>
+        </div>
+        <hr>
+        
         <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
             <h2 class="text-center">Nom Nomm'd:</h2>
 
