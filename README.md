@@ -1,6 +1,6 @@
 # burger-it-up
 
-![Image of burger-it-up app](/public/assets/images/burger-it-up-image)
+![Image of burger-it-up app](/public/assets/images/burger-it-up-image.png)
 
 
 ### App Functionality
