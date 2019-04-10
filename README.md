@@ -26,7 +26,7 @@
 
 
 
-### [burger-it up is deployed via Heroku using JawsDB:](http://example.com/) 
+### [burger-it up is deployed via Heroku using JawsDB:](https://sheltered-plateau-32771.herokuapp.com/) 
 
 
 
